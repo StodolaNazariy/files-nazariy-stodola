@@ -1,0 +1,12 @@
+{
+  "name": "validateservice",
+  "version": "1.0.0",
+  "description": "validation from Nazariy Stodola",
+  "main": "index.js",
+  "author": "Nazariy Stodola onepiece.nazar@gmail.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
