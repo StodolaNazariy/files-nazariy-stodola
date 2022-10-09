@@ -1,4 +1,13 @@
 const validationService = {
+  id: id => {
+    const Id = Number(id) > -1;
+    if (!Id) {
+      return false;
+    }
+
+    return true;
+  },
+
   name: name => {
     if (name.length < 3 || name.length > 30) {
       return `Name should contain at least 3 and max 30 characters`;
