@@ -34,6 +34,12 @@ const validationService = {
       return "Password should contain at least 1 lowercase, 1 uppercase, and 1 number.";
     }
   },
+
+  repeatPassword: (repeatPassword, extraValues) => {
+    if (repeatPassword !== extraValues.password) {
+      return "Passwords don`t match";
+    }
+  },
 };
 
 module.exports = validationService;
