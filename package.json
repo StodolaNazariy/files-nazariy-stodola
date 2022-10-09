@@ -1,12 +1,12 @@
 {
-  "name": "validateservice",
+  "name": "files-nazariy-stodola",
   "version": "1.0.0",
   "description": "validation from Nazariy Stodola",
   "main": "index.js",
   "author": "Nazariy Stodola onepiece.nazar@gmail.com",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StodolaNazariy/files-nazariy-stodola/blob/master/package.json"
+  }
 }
