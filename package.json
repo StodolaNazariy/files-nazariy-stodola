@@ -1,7 +1,7 @@
 {
   "name": "files-nazariy-stodola",
-  "version": "1.0.0",
-  "description": "validation from Nazariy Stodola",
+  "version": "1.4.0",
+  "description": "Shared files from Nazariy Stodola",
   "main": "index.js",
   "author": "Nazariy Stodola onepiece.nazar@gmail.com",
   "license": "MIT",
