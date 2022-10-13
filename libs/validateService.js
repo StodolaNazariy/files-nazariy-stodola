@@ -1,7 +1,12 @@
 const validationService = {
-  id: id => {
-    const Id = Number(id) > -1;
-    if (!Id) {
+  id: value => {
+    if (!value || value === true) {
+      return false;
+    }
+
+    const id = Number(value);
+
+    if (!id || id <= 0) {
       return false;
     }
 

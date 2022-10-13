@@ -1,6 +1,6 @@
 {
-  "name": "files-nazariy-stodola",
-  "version": "1.6.0",
+  "name": "stodola-validation",
+  "version": "2.0.0",
   "description": "Shared files from Nazariy Stodola",
   "main": "index.js",
   "author": "Nazariy Stodola onepiece.nazar@gmail.com",
@@ -8,5 +8,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/StodolaNazariy/files-nazariy-stodola/blob/master/package.json"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*test.js --reporter spec --exit"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
   }
 }
